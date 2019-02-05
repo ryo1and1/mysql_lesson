@@ -1,0 +1,17 @@
+USE test;
+CREATE TABLE chapter12 (
+	id int NOT NULL
+	);
+
+ALTER TABALE chapter12 ADD COLUMN status int DEFAULT 1;
+
+ALTER TABALE chapter12 ADD COLUMN name varchar(255) UNIQUE;
+
+ALTER TABALE chapter12 ADD COLUMN pk_id int PRIMARY KEY;
+
+ALTER TABALE chapter12 ADD COLUMN ai_id int AUTO_INCREMENT UNIQUE;
+
+DESC chapter12;
+
+
+
