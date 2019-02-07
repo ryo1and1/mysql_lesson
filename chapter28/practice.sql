@@ -1,0 +1,9 @@
+DROP DATABASE test;
+
+SHOW DATABASES;
+
+CREATE DATABASE test;
+
+\. 20190207_alltest.dump
+
+SHOW TABLES;
